@@ -43,3 +43,77 @@
    c. (x = 0) ∨ (x > 0)  : x ≥ 0
    d. (x > 0) ∨ (x ≥ 0)  : x ≥ 0
    e. (x > 3) ∨ (x² > 9) : x > 3
+
+6. Express each of your simplified statements from question 5 in natural
+   English.
+
+   a. Pi is greater than 10
+   b. x is unequal to zero
+   c. x is greater than or equal to zero
+   d. x is greater than or equal to zero
+   e. x is greater than three
+
+7. What strategy would you adopt to show that the disjunction
+   φ1 ∨ φ2 ∨ . . . ∨ φn is true?
+
+   let x = 1
+   let disjunction = false
+   while x ≤ n do
+     if φx = true then
+        disjunction = true
+        break
+     x = x + 1
+
+8. What strategy would you adopt to show that the disjunction 
+   φ1 ∨ φ2 ∨ . . . ∨ φn is false?
+
+   Same as in 7
+
+9. Simplify the following symbolic statements as much as you can, leaving your
+   answer in a standard symbolic form (assuming you are familiar with the
+   notation):
+
+   a. ¬(π > 3.2) : π < 3.2
+   b. ¬(x < 0)   : x ≥ 0
+   c. ¬(x² > 0)  : x = 0
+   d. ¬(x = 1)   : x ≠ 1
+   e. ¬¬ψ        : ψ
+
+10. Express each of your simplified statements from question 9 in natural
+    English.
+
+    a. π is smaller than 3.2
+    b. x is greater than or equal to zero
+    c. x equals zero
+    d. x is not equal to one
+    e. psi
+
+11. Let D be the statement “The dollar is strong”, Y the statement “The Yuan is
+    strong” and T the statement “New US–China trade agreement signed”. Express
+    the main content of each of the following (fictitious) newspaper headlines
+    in logical notation. (Note that logical notation captures truth, but not
+    the many nuances and inferences of natural language.) How would you justify
+    and defend your answers?
+
+    a. Dollar and Yuan both strong : D ∧ T
+       
+       The word both refers to Dollar and Yuan.
+
+    b. Yuan weak despite new trade agreement, but Dollar remains strong
+       
+       ¬Y ∧ T ∧ D
+
+    c. Dollar and Yuan can’t both be strong at same time.
+
+       (D ∧ ¬Y) ∨ (¬D ∧ Y)
+    
+    d. New trade agreement does not prevent fall in Dollar and Yuan
+
+       T !⇒ (¬D ∧ ¬Y)
+
+    e. US–China trade agreement fails but both currencies remain strong
+
+      ¬T ∧ D ∧ Y
+
+
+
