@@ -29,4 +29,7 @@
     if φx is false ⇒ conjunction is false
     if φx = φn and φx is true ⇒ conjunction is true
 
-4. 
+4. What strategy would you adopt to show that the conjunction 
+   φ1 ∧ φ2 ∧ . . . ∧ φn is false?
+
+   Same is in 3.
