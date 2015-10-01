@@ -33,3 +33,13 @@
    φ1 ∧ φ2 ∧ . . . ∧ φn is false?
 
    Same is in 3.
+
+5. Simplify the following symbolic statements as much as you can, leaving your
+   answer in a standard symbolic form (assuming you are familiar with the
+   notation):
+
+   a. (π > 3) ∨ (π > 10) : π > 10
+   b. (x < 0) ∨ (x > 0)  : x ≠ 0
+   c. (x = 0) ∨ (x > 0)  : x ≥ 0
+   d. (x > 0) ∨ (x ≥ 0)  : x ≥ 0
+   e. (x > 3) ∨ (x² > 9) : x > 3
